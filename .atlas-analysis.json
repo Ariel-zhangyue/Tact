@@ -1,30 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "万有无界",
+  "projectDescription": "万有无界是阿里云推出的企业级 AI 智能工作平台，帮助企业团队通过 AI 技术实现高效协作与智能办公。",
   "theme": "almond",
-  "name": "万有无界",
-  "colors": {
-    "primary": "#fc6c04",
-    "light": "#ff8c3a",
-    "dark": "#d95800"
-  },
-  "favicon": "https://media.brand.dev/885fee7f-c272-460c-be70-597bdb2605c2.png",
-  "logo": {
-    "light": "https://media.brand.dev/616289dd-274a-48cf-bd5c-62ac7a9376a3.png",
-    "dark": "https://media.brand.dev/616289dd-274a-48cf-bd5c-62ac7a9376a3.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "联系支持",
-        "href": "/help/contact-support"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "立即登录",
-      "href": "https://work.wanuai.cn"
-    }
-  },
+  "primaryColor": "#fc6c04",
+  "lightColor": "#ff8c3a",
+  "darkColor": "#d95800",
   "navigation": {
     "tabs": [
       {
@@ -87,7 +68,23 @@
       }
     ]
   },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "AI 智能助手：内置 AI 对话与任务自动化能力",
+    "团队协作：多人实时协作、消息沟通与任务分配",
+    "文档管理：在线文档创建、编辑与共享",
+    "任务管理：项目跟踪、任务看板与进度管理",
+    "组织管理：成员管理、角色权限与组织架构",
+    "账户安全：多因素认证与访问控制"
+  ],
+  "publicApiSurface": [
+    "手机号登录",
+    "账密登录",
+    "工作台主页",
+    "AI 助手对话",
+    "团队空间",
+    "文档编辑器",
+    "任务看板",
+    "成员管理后台",
+    "通知设置"
+  ]
 }
